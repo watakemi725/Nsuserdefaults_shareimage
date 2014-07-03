@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463E5ACA195D52EC00FA26BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463E5AC9195D52EC00FA26BE /* Foundation.framework */; };
+		463E5ACC195D52EC00FA26BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463E5ACB195D52EC00FA26BE /* CoreGraphics.framework */; };
+		463E5ACE195D52EC00FA26BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463E5ACD195D52EC00FA26BE /* UIKit.framework */; };
+		463E5AD4195D52EC00FA26BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 463E5AD2195D52EC00FA26BE /* InfoPlist.strings */; };
+		463E5AD6195D52EC00FA26BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 463E5AD5195D52EC00FA26BE /* main.m */; };
+		463E5ADA195D52EC00FA26BE /* LCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 463E5AD9195D52EC00FA26BE /* LCAppDelegate.m */; };
+		463E5ADD195D52EC00FA26BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463E5ADB195D52EC00FA26BE /* Main.storyboard */; };
+		463E5AE0195D52EC00FA26BE /* LCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463E5ADF195D52EC00FA26BE /* LCViewController.m */; };
+		463E5AE2195D52EC00FA26BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463E5AE1195D52EC00FA26BE /* Images.xcassets */; };
+		463E5AE9195D52EC00FA26BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463E5AE8195D52EC00FA26BE /* XCTest.framework */; };
+		463E5AEA195D52EC00FA26BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463E5AC9195D52EC00FA26BE /* Foundation.framework */; };
+		463E5AEB195D52EC00FA26BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463E5ACD195D52EC00FA26BE /* UIKit.framework */; };
+		463E5AF3195D52EC00FA26BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 463E5AF1195D52EC00FA26BE /* InfoPlist.strings */; };
+		463E5AF5195D52EC00FA26BE /* keichanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 463E5AF4195D52EC00FA26BE /* keichanTests.m */; };
+		463E5B48195EA42000FA26BE /* LC2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463E5B47195EA42000FA26BE /* LC2ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		463E5AEC195D52EC00FA26BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 463E5ABE195D52EC00FA26BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 463E5AC5195D52EC00FA26BE;
+			remoteInfo = keichan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		463E5AC6195D52EC00FA26BE /* keichan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keichan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		463E5AC9195D52EC00FA26BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		463E5ACB195D52EC00FA26BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		463E5ACD195D52EC00FA26BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		463E5AD1195D52EC00FA26BE /* keichan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "keichan-Info.plist"; sourceTree = "<group>"; };
+		463E5AD3195D52EC00FA26BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		463E5AD5195D52EC00FA26BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		463E5AD7195D52EC00FA26BE /* keichan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "keichan-Prefix.pch"; sourceTree = "<group>"; };
+		463E5AD8195D52EC00FA26BE /* LCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCAppDelegate.h; sourceTree = "<group>"; };
+		463E5AD9195D52EC00FA26BE /* LCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAppDelegate.m; sourceTree = "<group>"; };
+		463E5ADC195D52EC00FA26BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		463E5ADE195D52EC00FA26BE /* LCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCViewController.h; sourceTree = "<group>"; };
+		463E5ADF195D52EC00FA26BE /* LCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCViewController.m; sourceTree = "<group>"; };
+		463E5AE1195D52EC00FA26BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		463E5AE7195D52EC00FA26BE /* keichanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keichanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		463E5AE8195D52EC00FA26BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		463E5AF0195D52EC00FA26BE /* keichanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "keichanTests-Info.plist"; sourceTree = "<group>"; };
+		463E5AF2195D52EC00FA26BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		463E5AF4195D52EC00FA26BE /* keichanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keichanTests.m; sourceTree = "<group>"; };
+		463E5B46195EA42000FA26BE /* LC2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LC2ViewController.h; sourceTree = "<group>"; };
+		463E5B47195EA42000FA26BE /* LC2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LC2ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		463E5AC3195D52EC00FA26BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463E5ACC195D52EC00FA26BE /* CoreGraphics.framework in Frameworks */,
+				463E5ACE195D52EC00FA26BE /* UIKit.framework in Frameworks */,
+				463E5ACA195D52EC00FA26BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463E5AE4195D52EC00FA26BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463E5AE9195D52EC00FA26BE /* XCTest.framework in Frameworks */,
+				463E5AEB195D52EC00FA26BE /* UIKit.framework in Frameworks */,
+				463E5AEA195D52EC00FA26BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		463E5ABD195D52EC00FA26BE = {
+			isa = PBXGroup;
+			children = (
+				463E5ACF195D52EC00FA26BE /* keichan */,
+				463E5AEE195D52EC00FA26BE /* keichanTests */,
+				463E5AC8195D52EC00FA26BE /* Frameworks */,
+				463E5AC7195D52EC00FA26BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		463E5AC7195D52EC00FA26BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				463E5AC6195D52EC00FA26BE /* keichan.app */,
+				463E5AE7195D52EC00FA26BE /* keichanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		463E5AC8195D52EC00FA26BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				463E5AC9195D52EC00FA26BE /* Foundation.framework */,
+				463E5ACB195D52EC00FA26BE /* CoreGraphics.framework */,
+				463E5ACD195D52EC00FA26BE /* UIKit.framework */,
+				463E5AE8195D52EC00FA26BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		463E5ACF195D52EC00FA26BE /* keichan */ = {
+			isa = PBXGroup;
+			children = (
+				463E5AD8195D52EC00FA26BE /* LCAppDelegate.h */,
+				463E5AD9195D52EC00FA26BE /* LCAppDelegate.m */,
+				463E5ADB195D52EC00FA26BE /* Main.storyboard */,
+				463E5ADE195D52EC00FA26BE /* LCViewController.h */,
+				463E5ADF195D52EC00FA26BE /* LCViewController.m */,
+				463E5B46195EA42000FA26BE /* LC2ViewController.h */,
+				463E5B47195EA42000FA26BE /* LC2ViewController.m */,
+				463E5AE1195D52EC00FA26BE /* Images.xcassets */,
+				463E5AD0195D52EC00FA26BE /* Supporting Files */,
+			);
+			path = keichan;
+			sourceTree = "<group>";
+		};
+		463E5AD0195D52EC00FA26BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				463E5AD1195D52EC00FA26BE /* keichan-Info.plist */,
+				463E5AD2195D52EC00FA26BE /* InfoPlist.strings */,
+				463E5AD5195D52EC00FA26BE /* main.m */,
+				463E5AD7195D52EC00FA26BE /* keichan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		463E5AEE195D52EC00FA26BE /* keichanTests */ = {
+			isa = PBXGroup;
+			children = (
+				463E5AF4195D52EC00FA26BE /* keichanTests.m */,
+				463E5AEF195D52EC00FA26BE /* Supporting Files */,
+			);
+			path = keichanTests;
+			sourceTree = "<group>";
+		};
+		463E5AEF195D52EC00FA26BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				463E5AF0195D52EC00FA26BE /* keichanTests-Info.plist */,
+				463E5AF1195D52EC00FA26BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		463E5AC5195D52EC00FA26BE /* keichan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463E5AF8195D52EC00FA26BE /* Build configuration list for PBXNativeTarget "keichan" */;
+			buildPhases = (
+				463E5AC2195D52EC00FA26BE /* Sources */,
+				463E5AC3195D52EC00FA26BE /* Frameworks */,
+				463E5AC4195D52EC00FA26BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keichan;
+			productName = keichan;
+			productReference = 463E5AC6195D52EC00FA26BE /* keichan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		463E5AE6195D52EC00FA26BE /* keichanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463E5AFB195D52EC00FA26BE /* Build configuration list for PBXNativeTarget "keichanTests" */;
+			buildPhases = (
+				463E5AE3195D52EC00FA26BE /* Sources */,
+				463E5AE4195D52EC00FA26BE /* Frameworks */,
+				463E5AE5195D52EC00FA26BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				463E5AED195D52EC00FA26BE /* PBXTargetDependency */,
+			);
+			name = keichanTests;
+			productName = keichanTests;
+			productReference = 463E5AE7195D52EC00FA26BE /* keichanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		463E5ABE195D52EC00FA26BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = takemi;
+				TargetAttributes = {
+					463E5AE6195D52EC00FA26BE = {
+						TestTargetID = 463E5AC5195D52EC00FA26BE;
+					};
+				};
+			};
+			buildConfigurationList = 463E5AC1195D52EC00FA26BE /* Build configuration list for PBXProject "keichan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 463E5ABD195D52EC00FA26BE;
+			productRefGroup = 463E5AC7195D52EC00FA26BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				463E5AC5195D52EC00FA26BE /* keichan */,
+				463E5AE6195D52EC00FA26BE /* keichanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		463E5AC4195D52EC00FA26BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463E5AE2195D52EC00FA26BE /* Images.xcassets in Resources */,
+				463E5AD4195D52EC00FA26BE /* InfoPlist.strings in Resources */,
+				463E5ADD195D52EC00FA26BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463E5AE5195D52EC00FA26BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463E5AF3195D52EC00FA26BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463E5AC2195D52EC00FA26BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463E5AD6195D52EC00FA26BE /* main.m in Sources */,
+				463E5ADA195D52EC00FA26BE /* LCAppDelegate.m in Sources */,
+				463E5B48195EA42000FA26BE /* LC2ViewController.m in Sources */,
+				463E5AE0195D52EC00FA26BE /* LCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463E5AE3195D52EC00FA26BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463E5AF5195D52EC00FA26BE /* keichanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		463E5AED195D52EC00FA26BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 463E5AC5195D52EC00FA26BE /* keichan */;
+			targetProxy = 463E5AEC195D52EC00FA26BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		463E5AD2195D52EC00FA26BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463E5AD3195D52EC00FA26BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		463E5ADB195D52EC00FA26BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463E5ADC195D52EC00FA26BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		463E5AF1195D52EC00FA26BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463E5AF2195D52EC00FA26BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		463E5AF6195D52EC00FA26BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takemi Watanuki (EN85V2FC2D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Takemi Watanuki (EN85V2FC2D)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		463E5AF7195D52EC00FA26BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takemi Watanuki (EN85V2FC2D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		463E5AF9195D52EC00FA26BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keichan/keichan-Prefix.pch";
+				INFOPLIST_FILE = "keichan/keichan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		463E5AFA195D52EC00FA26BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keichan/keichan-Prefix.pch";
+				INFOPLIST_FILE = "keichan/keichan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		463E5AFC195D52EC00FA26BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/keichan.app/keichan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keichan/keichan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "keichanTests/keichanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		463E5AFD195D52EC00FA26BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/keichan.app/keichan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keichan/keichan-Prefix.pch";
+				INFOPLIST_FILE = "keichanTests/keichanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		463E5AC1195D52EC00FA26BE /* Build configuration list for PBXProject "keichan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463E5AF6195D52EC00FA26BE /* Debug */,
+				463E5AF7195D52EC00FA26BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463E5AF8195D52EC00FA26BE /* Build configuration list for PBXNativeTarget "keichan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463E5AF9195D52EC00FA26BE /* Debug */,
+				463E5AFA195D52EC00FA26BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463E5AFB195D52EC00FA26BE /* Build configuration list for PBXNativeTarget "keichanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463E5AFC195D52EC00FA26BE /* Debug */,
+				463E5AFD195D52EC00FA26BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 463E5ABE195D52EC00FA26BE /* Project object */;
+}
