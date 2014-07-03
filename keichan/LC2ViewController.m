@@ -26,16 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    
-    //    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];  // 取得
-    //    int i = [ud integerForKey:@"nurpo"];
-    //    label2.text=[NSString stringWithFormat:@"%d",i];
-    
-    
-    
-    
+     
 }
 
 -(void)viewDidAppear:(BOOL)animated{
